@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TelegramBan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TelegramBan_jar</output-path>
+    <root id="archive" name="TelegramBan.jar">
+      <element id="module-output" name="TelegramBan" />
+    </root>
+  </artifact>
+</component>
