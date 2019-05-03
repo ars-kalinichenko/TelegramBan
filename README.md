@@ -1,1 +1,2 @@
 # TelegramBan
+_This is a very simple game(clicker) in which you play as Roskomnadzor and have to destroy Telegram servers. But as we know, you will have to destroy other companies ' servers. This game was created as a training project in Java. More bans!_
