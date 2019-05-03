@@ -38,13 +38,15 @@ public class GameWindow extends JFrame {
         list_logo.add("skype.png");
         list_logo.add("google.png");
         list_logo.add("telegram.png");
+        list_logo.add("telegram.png");
+        list_logo.add("tg_white.png");
         list_logo.add("tg_white.png");
         list_logo.add("twitter.png");
         list_logo.add("youtube.png");
 
 
         background = ImageIO.read(GameWindow.class.getResourceAsStream(("tgbk.png")));
-        tg_logo = ImageIO.read(GameWindow.class.getResourceAsStream((anyString())));
+        tg_logo = ImageIO.read(GameWindow.class.getResourceAsStream("telegram.png"));
         game_over = ImageIO.read(GameWindow.class.getResourceAsStream(("go.png")));
         gameWindow = new GameWindow();
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -69,7 +71,7 @@ public class GameWindow extends JFrame {
                     gameWindow.setTitle("Blocked Telegram: " + score);
 
                     try {
-                        tg_logo = ImageIO.read(GameWindow.class.getResourceAsStream(("facebook.png")));
+                        tg_logo = ImageIO.read(GameWindow.class.getResourceAsStream((anyString())));
                     } catch (IOException error) {
                         error.printStackTrace();
                     }
